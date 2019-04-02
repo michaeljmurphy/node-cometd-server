@@ -2,7 +2,7 @@ const http = require("http");
 const cometd = require('cometd-nodejs-server');
 
 var _channel = process.env.channel;
-var _port = 80;
+var _port = 8080;
 
 /* Create a cometd server and expose it */
 const cometdServer = cometd.createCometDServer({
